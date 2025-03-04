@@ -1,0 +1,4 @@
+template-file-path: Auto-Scaling.yaml
+parameters:
+  KeyName: my-sc2
+tags: {}
