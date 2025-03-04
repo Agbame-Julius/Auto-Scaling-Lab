@@ -1,10 +1,10 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'Auto Scaling Lab - Dynamic Scaling of Apache Web Servers'
+Description: 'Auto Scaling Lab'
 
 Parameters:
   KeyName:
     Type: AWS::EC2::KeyPair::KeyName
-    Default: Week3KeyPair
+    Default: my-sc2
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instances
 
 Resources:
